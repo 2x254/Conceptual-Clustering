@@ -6,9 +6,6 @@ This is the implementation of the CCA-k-RFP approach. To run the code, follow th
 
 For the parameters, k is relaxation, minsupp is the minimum support (alpha), and msi is the minimum item frequency (gamma).
 
-3) Install numpy and the pulp framework:
-
-   3.1) Run the command: pip install numpy
-   3.2) Run the command: pip install pulp
-
-4) Run the Python files ILP_classical_patterns.py (for classic patterns) and ILP_k_RFP.py (for k-RFP).
+3) Install numpy: pip install numpy
+4) Install pulp: pip install pulp
+5) Run the Python files ILP_classical_patterns.py (for classic patterns) and ILP_k_RFP.py (for k-RFP).
