@@ -4,7 +4,7 @@ This is the implementation of the CCA-k-RFP approach. To run the code, follow th
 
 ./xsat4DAR -kx=0 -ky=1 -minsupp=1  -gdar=1 -msi=1 dataset/mushroomfinal.txt | grep "^[1-9]" >RelaxedPatterns/patternsk0.txt
 
-For the parameters, k is relaxation, minsupp is the minimum support (alpha), and msi is the minimum item frequency (gamma).
+For the parameters, kx is relaxation, minsupp is the minimum support (alpha), and msi is the minimum item frequency (gamma).
 
 3) Install numpy: pip install numpy
 4) Install pulp: pip install pulp
